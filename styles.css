@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#hero {
+    height: 319px;
+    padding-top: 40px;
+    background-image: url(images/nagpur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#title {
+    font-size: 30px;
+    color: #003153;
+    background: #FF8C1A;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-family: "Happy Monkey", system-ui;
+}
+.popular-places {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F8F4E3;  
+    gap: 0px;
+    height: 619px;
+    color: #003153;
+}
+#place-1 {
+    width: 480px;
+    margin-bottom: 20px;
+}
+#place-1:hover {
+    background-color: #f0ebdc;
+}
+#place-2 {
+    width: 480px;
+    margin-bottom: 20px;
+}
+#place-2:hover {
+    background-color: #f0ebdc;
+}
+#place-3 {
+    width: 480px;
+    margin-bottom: 20px;
+}
+#place-3:hover {
+    background-color: #f0ebdc;
+}
+.img {
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+#id-section {
+    border: 1px solid #94B0DA;
+    background-color: #94B0DA;
+}
+#id-card {
+    border: 1px solid black;
+    color: black;
+    margin: 100px auto;
+    background-color: #125E8A;
+    border-bottom: #FF8C1A 6px solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 636px;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 25px;
+    color: #F8F4E3;
+    font-family: "roboto", sans-serif;
+}
+#id-card:hover {
+    background-color: linear-gradient(#125E8A, #003153);
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.3);
+    color: #ece8d9;
+}
+#pic {
+    width: 223px;
+    height: 290px;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+}
+.description{
+    font-size: 23px;
+    margin-top: -15px;
+    font-family: "roboto", sans-serif;
+}
